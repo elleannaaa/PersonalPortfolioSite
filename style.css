@@ -1,1 +1,146 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* Set box-sizing to border-box for all elements */
+html {
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 75px;
+    margin-bottom:0;
+    background-color: #f6dbd6;
+    padding:0;
+}
+
+.content-container {
+    display: flex; 
+    align-items: center; 
+    gap: 50px; 
+    margin-right: 35px;
+    font-family:"Truculenta";
+    padding:60px;
+    font-size: 22px;
+}
+
+.rounded {
+    border-radius: 50%; /* makes the image rounded */
+    max-width: 300px; 
+    height: 350px; /* keeps the aspect ratio */
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+
+nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #49683f;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    font-family: "Sono";
+  }
+  
+  
+  /* To ensure the content is not hidden behind the fixed navbar */
+  body {
+    padding-top: 60px; 
+  }
+  
+
+/* Basic body styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: #f5c4e1e3;
+    color: #333;
+    padding: 0px;
+    margin: 0;
+}
+
+/* Set base styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0rem;
+}
+
+h5{
+    margin-top: 0rem;
+    font-family:sans-serif;
+    text-align:center;
+}
+
+.images-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px; 
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.rounded-square {
+  width: 175px; 
+  height: 175px; 
+  object-fit: cover; 
+  border-radius: 15px; 
+}
+
+
+p{
+  display: flex; 
+  align-items: center; 
+  margin-right: 35px;
+  font-family:"Truculenta";
+  font-size: 22px;
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*subtle 3d effect*/
+  background-color: #ffffff; 
+  margin: 20px auto; 
+  max-width: 80%; 
+  text-align: justify; 
+}
+
+.social {
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.social a{
+  font-size: 15px;
+  color: #d791cf;
+  padding: 0px;
+  margin: 10px;
+  margin-right:10px;
+  display: inline-block
+}
+
+
+
 

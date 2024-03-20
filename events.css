@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 75px;
+    margin-bottom:0;
+    background-color: #f6dbd6;
+    padding:0;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #49683f;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    font-family: "Sono";
+  }
+  
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: #f5c4e1e3;
+    color: #333;
+    padding: 0px;
+    margin: 0;
+}
+
+/*  base styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0rem;
+}
+
+h5{
+    margin-top: 0rem;
+    font-family:sans-serif;
+    text-align:center;
+}
+
+p{
+    display: flex; 
+    align-items: center; 
+    /*gap: 50px; */
+    margin-right: 35px;
+    font-family:"Truculenta";
+    padding:60px;
+    font-size: 22px;
+}
+
+.event-wrapper {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
+.event-wrapper > p,
+.event-wrapper > img {
+    flex-basis: 50%; 
+}
+
+.event-wrapper > p {
+    flex-basis: 50%; 
+    margin-right: 30px; 
+    margin-left: 30px; 
+    background-color: #f0f0f0; 
+    padding: 15px; 
+    border-radius: 15px; /* rounded corners*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.event-wrapper > img {
+    max-width: 500px; 
+    max-height: 500px; 
+    object-fit: cover; 
+    border-radius: 15px; 
+    height: auto;
+    margin-left:30px ;
+    margin-right: 30px;
+}
+
+.second-event {
+    flex-direction: row-reverse; /* reverses the order of elements for the second event */
+}
+
+
