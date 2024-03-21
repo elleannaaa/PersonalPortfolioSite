@@ -4,6 +4,8 @@ Personal Portfolio Site
 
 Assignment Requirements:
 
+** I made a portfolio for my friend, Chloe.
+
 1. name - included
 2. photo or illustration - included
 3. Github or social media links - included ( GitHub not applicable)
@@ -11,3 +13,5 @@ Assignment Requirements:
 5. Job experience - included ( employee at Friends of Normie)
 
 Website Deployed Link:
+
+https://personal-portfolio-site-green.vercel.app/
